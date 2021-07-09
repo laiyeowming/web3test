@@ -27,7 +27,7 @@
         async function loadWeb3(){
             window.web3 = new Web3(window.ethereum)
         }
-        var url = 'https://ropsten.infura.io/v3/9d5ba8b3d1ab4df8a4701746faf22e2c'; //using Infura as a client to create a node 
+        var url = ${{ secrets.SecretToken }}; //using Infura as a client to create a node 
         var web3 = new Web3(url);
 
         var address = document.getElementById('wallet').value;
