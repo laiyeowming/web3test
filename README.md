@@ -1,10 +1,10 @@
 ## Web app for Ethereum ##
 Purpose is to interact with Ethereum blockchain from Javascript, through Infura.
-![](/images/frontend.png width="300")
+![](src="images/frontend.png" width="300")
 
 ### Following are the steps ###
 1. Please refer to Infura startup page to get your own Ethereum endpoint.
-![](/images/infura.png width="200")
+![](src="images/infura.png" width="200")
 https://blog.infura.io/getting-started-with-infura-28e41844cc89/#step-four-control-how-your-api-can-be-used-enable-your-custom-security-settings- 
 
 2. To get started with web3 library, web3.js is required. Please install in your project with the following methods:
