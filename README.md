@@ -1,6 +1,6 @@
 ## Web app for Ethereum ##
 Purpose is to interact with Ethereum blockchain from Javascript, through Infura.
-<img src="images/frontend.png" width="500px">
+<img src="images/frontend1.png" width="400px">    <img src="images/frontend2.png" width="402px">
  
  
 ### Following are the steps ###
@@ -21,6 +21,10 @@ Purpose is to interact with Ethereum blockchain from Javascript, through Infura.
     
     https://web3js.readthedocs.io/en/v1.4.0/web3-eth.html#getbalance
     
-4. Utility functions for Ethereum dapps. We will be using **fromWei** to convert ether from wei to eth.
+4. Web3.eth.contract is required for us to read smart contract data from the Ethereum network. In our web app, we have demostrated retrival of **symbol**, **token balance in the following wallet**, as well as **overall token supply**. Do note that web3.eth.contract() requires two arguments: one for the smart contract ABI and one for the smart contract address.
+
+   https://web3js.readthedocs.io/en/v1.4.0/web3-eth-contract.html
+
+5. Utility functions for Ethereum dapps. We will be using **fromWei** to convert ether from wei to eth.
     
     https://web3js.readthedocs.io/en/v1.4.0/web3-utils.html#fromwei
